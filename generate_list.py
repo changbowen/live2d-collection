@@ -3,10 +3,11 @@ import os
 import pathlib
 
 out = []
+os.path.dirname(os.path.abspath(__file__))
 for root, dirs, files in os.walk('.'):
     for file in files:
         if file.endswith('.json'):
-            jPath = root + '\\' + file
+            jPath = os.path.join(root, file)
             with open(jPath, encoding='utf-8-sig') as f:
                 jData = json.load(f)
                 if type(jData) is dict and 'model' in jData and jData['model'].endswith('.moc'):
