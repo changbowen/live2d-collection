@@ -9,7 +9,7 @@
     "22.1024/closet.2017.cba-normal/texture_02.png",
     "22.1024/closet.2017.cba-normal/texture_03.png"
   ],
-  "layout": { "center_x": 0, "center_y": 0.1, "width": 2.3, "height": 2.3 },
+  "layout": {"center_x": 0, "center_y": 0.1, "width": 2.3, "height": 2.3},
   "hit_areas_custom": {
     "head_x": [-0.35, 0.6],
     "head_y": [0.19, -0.2],
